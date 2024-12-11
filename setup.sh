@@ -42,6 +42,18 @@ case "$distro" in
     ;;
 esac
 
+# Check if ~/bin exists and create it if it isn't
+if [[ ! -d ~/bin ]]; then
+  mkdir ~/bin
+fi
+
+# Check if repo is already installed and install it if it isn't
+if [[ ! -f ~/bin/repo ]]; then
+  echo "Installing repo..."
+  curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  chmod a+x ~/bin/repo
+fi
+
 echo "----- finished -----"
 
 
