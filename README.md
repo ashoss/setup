@@ -1,6 +1,6 @@
-## Android Build Scripts
+## Android Build Enviroment
 
-### This is personal script i use to clone and start the build enviroment script from [Akil Narang](https://github.com/akhilnarang) in one shot.
+### This is mainly personal script i use to clone and start the build enviroment script from [Akil Narang](https://github.com/akhilnarang) in one shot. it also includes minimal advice on build specs.
 
 ##### First open a Terminal in home directory and clone the scripts repo
 
