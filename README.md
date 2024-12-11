@@ -25,6 +25,7 @@
 
 - The script is compatible with both Ubuntu/Debian distros and Arch distros
 - The script may take a while to complete, depending on your hardware and internet speed
+- it is recommended that for Android 13 and higher you have at least 6 CPU cores, at least 24GB RAM and at least 350GB storage per ROM. zram is an option for anything less, but will not always be helpful
 
 #### Credits:
 
