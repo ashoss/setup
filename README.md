@@ -15,7 +15,7 @@
 ##### Ubuntu/Debian/Mint/Arch/Manjaro
 
 ```bash
-  bash scripts/setup.sh
+  bash setup/setup.sh
 ```
 
 ##### Let the script complete and once it is finished you will be ready for building Android/AOSP
